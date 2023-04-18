@@ -6,7 +6,7 @@ const instance = axios.create({ baseURL });
 
 const getTweets = async () => {
   try {
-    const data = await instance('/tweet');
+    const data = await instance('/tweet/tweet');
     return data.data;
   } catch (error) {
     console.log(error.message);
