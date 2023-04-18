@@ -97,3 +97,68 @@ export const CardButton = styled.button`
   text-transform: uppercase;
   color: #373737;
 `;
+
+export const LoadMoreButton = styled.button`
+  width: 196px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  margin: 26px auto;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+`;
+
+export const PaginationWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  & > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #444;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    &:active {
+      background-color: #ddd;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.active {
+      border: 1px solid #2e75b6;
+      color: #2e75b6;
+      font-weight: bold;
+      pointer-events: none;
+    }
+
+    &.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  }
+`;

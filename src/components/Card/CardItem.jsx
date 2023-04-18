@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import Logo from '../../images/Logo.png';
 import Picture from '../../images/picture2.png';
@@ -45,7 +46,9 @@ export const CardItem = ({ id, avatar, user, tweets, followers }) => {
       </AvatarWrapper>
       <CardTitles>{user}</CardTitles>
       <CardTitles>{tweets} TWEETS</CardTitles>
-      <CardTitles>{follow} FOLLOWERS</CardTitles>
+      <CardTitles>
+        {follow.toLocaleString(undefined, { useGrouping: true })} FOLLOWERS
+      </CardTitles>
       <CardButton
         type="button"
         onClick={handleFollow}
