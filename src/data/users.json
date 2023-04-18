@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+        "id": 1,
+        "user": "Elon Reeve Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "https://cdn-icons-png.flaticon.com/128/1999/1999625.png"
+        },
+        {
+        "id": 2,
+        "user": "Donald J Trump",
+        "tweets": 500,
+        "followers": 80900,
+        "avatar": "https://cdn-icons-png.flaticon.com/128/805/805442.png"
+        },
+        {
+        "id": 3,
+        "user": "Hon Gil Don",
+        "tweets": 5,
+        "followers": 7865,
+        "avatar": "https://cdn-icons-png.flaticon.com/128/2267/2267521.png"
+        },
+        {
+        "id": 4,
+        "user": "Baba Lida",
+        "tweets": 2345,
+        "followers": 7890345,
+        "avatar": "https://cdn-icons-png.flaticon.com/128/3554/3554027.png"
+        },
+        {
+        "id": 5,
+        "user": "IT Specialist",
+        "tweets": 98765,
+        "followers": 13456,
+        "avatar": "https://cdn-icons-png.flaticon.com/128/4532/4532456.png"
+        }
+    ]
+}
