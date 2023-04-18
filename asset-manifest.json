@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tweet-task/static/css/main.073c9b0a.css",
+    "main.js": "/Tweet-task/static/js/main.a0a0e48e.js",
+    "static/media/picture2.png": "/Tweet-task/static/media/picture2.032662a2a907475127d7.png",
+    "index.html": "/Tweet-task/index.html",
+    "main.073c9b0a.css.map": "/Tweet-task/static/css/main.073c9b0a.css.map",
+    "main.a0a0e48e.js.map": "/Tweet-task/static/js/main.a0a0e48e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a0a0e48e.js"
+  ]
+}
