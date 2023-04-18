@@ -11,7 +11,8 @@ export const CardList = ({ users }) => {
           id={user.id}
           avatar={user.avatar}
           user={user.user}
-          tweets={user.tweets}
+          numOfTweets={user.numOfTweets}
+          //   tweets={user.tweets}
           followers={user.followers}
         />
       ))}
